@@ -6,4 +6,8 @@ eureka:
      defaultZone: https://service-registry-m.herokuapp.com/eureka
  instance:
    hostname: user-service-m.herokuapp.com
+   homePageUrl: https://${eureka.instance.hostName}/
+   home-page-url-path: https://${eureka.instance.hostName}
    non-secure-port: 80
+   non-secure-port-enabled: true
+   secure-port-enabled: false
