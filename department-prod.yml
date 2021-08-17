@@ -1,0 +1,9 @@
+eureka:
+ client:
+   register-with-eureka: true
+   fetch-registry: true
+   service-url:
+     defaultZone: https://service-registry-m.herokuapp.com/eureka
+ instance:
+   hostname: dept-service-m.herokuapp.com
+   non-secure-port: 80
